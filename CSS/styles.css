@@ -1,4 +1,4 @@
-body{
+html, body{
   margin: 0px;
   height: 100%;
 }
@@ -64,7 +64,7 @@ body{
 
 
 
-.carHighWay{
+.carView{
   padding-top: 20px;
   min-height: 700px;
 
@@ -78,4 +78,14 @@ body{
   font-size: 40px;
   font-style: oblique;
 }
+
+
+/* Car styling */
+
+.carHighWay{
+  min-height: 100px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
 
