@@ -1,6 +1,7 @@
-html, body{
+ body{
   margin: 0px;
-  height: 100%;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  overflow-y: hidden;
 }
 
 .navBar {
@@ -65,11 +66,16 @@ html, body{
 
 
 .carView{
+  height: 85vh;
+  width: 150vh;
+  margin: 2rem auto;
+  background: url("../assets/assets/Img_1.png");
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px rgba(0,0,0,4);
+  overflow-x: hidden;
   padding-top: 20px;
-  min-height: 700px;
 
-  width: 100%;
-  background-color: lightcyan;
 }
 
 .currentDestination{
@@ -83,9 +89,33 @@ html, body{
 /* Car styling */
 
 .carHighWay{
-  min-height: 100px;
-  width: 100%;
-  background-color: aquamarine;
+  height: 140px;
+  width: 500%;
+  background: url("../assets/assets/Img_02.png");
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+  animation: moveRight 6s linear infinite;
 }
 
+.car{
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  animation: susp 1s linear infinite;
+}
 
+/* animation */
+@keyframes moveRight {
+  100%{transform: translateX(-2950px);}
+  
+}
+
+@keyframes susp {
+  100%{transform: translateY(-1px);}
+  50%{transform: translateY(2px);}
+  0%{transform: translateY(-1px);}
+  
+}
