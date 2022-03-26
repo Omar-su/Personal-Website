@@ -1,6 +1,12 @@
+body{
+  margin: 0px;
+  height: 100%;
+}
 
 .navBar {
-display: flex;
+  display: flex;
+  padding-bottom: 20px;
+  background-color: #71c1d4;
 }
 
 .page {
@@ -54,3 +60,22 @@ display: flex;
   color: black;
 
 }
+
+
+
+
+.carHighWay{
+  padding-top: 20px;
+  min-height: 700px;
+
+  width: 100%;
+  background-color: lightcyan;
+}
+
+.currentDestination{
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+}
+
