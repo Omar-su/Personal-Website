@@ -97,14 +97,12 @@
   bottom: 0%;
   left: 0%;
   background-repeat: repeat-x;
-  animation: moveRight 6s linear infinite;
 }
 
 .car{
   position: absolute;
   bottom: 5%;
   left: 20%;
-  animation: susp 1s linear infinite;
 }
 
 /* animation */
@@ -118,4 +116,13 @@
   50%{transform: translateY(2px);}
   0%{transform: translateY(-1px);}
   
+}
+
+
+.moveRight{
+  animation: moveRight 6s linear infinite;
+}
+
+.susp{
+  animation: susp 1s linear infinite;
 }
